@@ -18,7 +18,9 @@ class App extends Component {
   removeElement= (index)=> {
     const inputArr = this.state.input.split('');
     inputArr.splice(index,1);
-    this.setState({input: inputArr.join('')})
+    this.setState({input: inputArr.join(''),
+    length:inputArr.length
+  })
   }
   
   render() {
