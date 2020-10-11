@@ -21,6 +21,7 @@ class App extends Component {
     this.setState({input: inputArr.join(''),
     length:inputArr.length
   })
+  
   }
   
   render() {
